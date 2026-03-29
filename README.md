@@ -112,6 +112,8 @@ These nodes are connected via SSH and managed from the Jenkins master, allowing 
 ### 🔄 GitHub Webhook Integration
 
 Jenkins is configured to automatically trigger the pipeline when code is pushed to GitHub using webhook integration.
+![Jenkins Trigger](jenkins-trigger.png)
+
 ![Webhook](github-webhook.png)
 
 
