@@ -57,6 +57,12 @@ Ansible was installed on the master machine using a shell script and verified us
 
 ![Ansible Version](ansible-version.png)
 
+### ⚙️ Ansible Connectivity Check
+
+The connectivity between master and slave nodes is verified using Ansible ping module.
+
+![Ansible Ping](ansible-ping.png)
+
 
 ## ✅ Conclusion
 
