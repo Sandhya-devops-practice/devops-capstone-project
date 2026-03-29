@@ -115,6 +115,9 @@ Jenkins is configured to automatically trigger the pipeline when code is pushed 
 
 ![Webhook](github-webhook.png)
 
+### 🐳 Docker Configuration
+
+A Dockerfile is used to containerize the application using Nginx.
 
 ### ▶️ Pipeline Execution
 ![Build](jenkins-build.png)
