@@ -77,6 +77,22 @@ Playbook file: [play.yaml](play.yaml)
 
 ![Docker Version](docker-version.png)
 
+## 🚀 Jenkins Setup and CI/CD Pipeline
+
+Jenkins is installed and configured on the master node and accessed using the public IP address on port 8080.
+
+It is used to automate the build, test, and deployment process in the DevOps lifecycle.
+
+### 🏠 Jenkins Dashboard
+![Jenkins Dashboard](jenkins-dashboard.png)
+
+### ⚙️ Pipeline Configuration
+![Pipeline](jenkins-pipeline.png)
+
+### ▶️ Pipeline Execution
+![Build](jenkins-build.png)
+
+
 
 
 
