@@ -73,6 +73,10 @@ Playbook file: [play.yaml](play.yaml)
 
 ![Playbook and Setup](playbook-run.png)
 
+### 🐳 Docker and Java Installation on Slave machines
+
+![Docker Version](docker-version.png)
+
 
 
 
