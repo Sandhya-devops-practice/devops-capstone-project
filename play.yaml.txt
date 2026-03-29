@@ -1,0 +1,15 @@
+---
+- name: Install Java and Jenkins on Master
+  hosts: localhost
+  connection: local
+  become: true
+  tasks:
+    - name: Install Java and Jenkins on master
+      script: master.sh
+
+- name: Install Java and Docker on slaves
+  hosts: slave
+  become: true
+  tasks:
+    - name: Install Java and Docker on slaves
+      script: slave.sh
