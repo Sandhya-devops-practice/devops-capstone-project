@@ -1,4 +1,4 @@
-# DevOps Lifecycle Implementation using Jenkins, Ansible, Docker on AWS
+# This project implements a complete DevOps lifecycle using CI/CD pipeline with Jenkins, Docker, Ansible, and AWS.
 
 ## 📊 DevOps Lifecycle Diagram
 
@@ -25,3 +25,31 @@ This process repeats continuously, forming the DevOps lifecycle.
 * Docker
 * Ansible
 * AWS
+
+## 📸 Project Screenshots
+
+### 🖥️ EC2 Instance Running
+
+![EC2 Instance](ec2-instance.png)
+
+### 🔗 Master Node Connection
+
+![Master Connection](master-connection.png)
+
+### 🔗 Slave Node 1 Connection
+
+![Slave1 Connection](slave1-connection.png)
+
+### 🔗 Slave Node 2 Connection
+
+![Slave2 Connection](slave2-connection.png)
+
+
+
+
+
+
+## ✅ Conclusion
+
+This project successfully demonstrates automation of build, test, and deployment using DevOps tools and practices.
+
