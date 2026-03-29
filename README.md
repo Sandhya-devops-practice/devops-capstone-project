@@ -86,6 +86,27 @@ It is used to automate the build, test, and deployment process in the DevOps lif
 ### 🏠 Jenkins Dashboard
 ![Jenkins Dashboard](jenkins-dashboard.png)
 
+## 🖥️ Jenkins Distributed Nodes Setup
+
+Jenkins is configured with multiple nodes (agents) to simulate different environments.
+
+- Test Node: Used for testing builds (slave1)
+- Production Node: Used for deployment (slave2)
+
+These nodes are connected via SSH and managed from the Jenkins master, allowing jobs to run on specific environments using labels.
+
+### 🧪 Test Node Configuration
+![Test Node](jenkins-test-node.png)
+
+### 🚀 Production Node Configuration
+![Prod Node](jenkins-prod-node.png)
+
+### 🔗 Connected Nodes
+![Nodes](jenkins-nodes.png)
+
+
+
+
 ### ⚙️ Pipeline Configuration
 ![Pipeline](jenkins-pipeline.png)
 
