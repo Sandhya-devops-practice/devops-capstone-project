@@ -120,11 +120,9 @@ Jenkins is configured to automatically trigger the pipeline when code is pushed 
 A Dockerfile is used to containerize the application using Nginx.
 
 ### ▶️ Pipeline Execution
-![Build](jenkins-build.png)
+![Build](jenkins-build-status.png)
 
-
-
-
+![Build](jenkins-console-output.png)
 
 ## ✅ Conclusion
 
