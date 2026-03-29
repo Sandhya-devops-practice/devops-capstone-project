@@ -69,6 +69,10 @@ An Ansible playbook is used to automate the installation of Java and Jenkins on 
 
 Playbook file: [play.yaml](play.yaml)
 
+### ▶️ Playbook Execution and Verification
+
+![Playbook and Setup](playbook-run.png)
+
 
 
 
