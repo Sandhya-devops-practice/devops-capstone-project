@@ -45,6 +45,11 @@ This process repeats continuously, forming the DevOps lifecycle.
 ![Slave2 Connection](slave2-connection.png)
 
 
+## ⚙️ Configuration Script
+
+The required software is installed using a shell script.
+
+Script file: `a.sh`
 
 
 
