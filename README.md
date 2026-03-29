@@ -95,8 +95,6 @@ Jenkins is configured with multiple nodes (agents) to simulate different environ
 
 These nodes are connected via SSH and managed from the Jenkins master, allowing jobs to run on specific environments using labels.
 
-### 🧪 Test Node Configuration
-
 ### 🚀 Production Node Configuration
 ![Prod Node](jenkins-prodconfig-node.png)
 
