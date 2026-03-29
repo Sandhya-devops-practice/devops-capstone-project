@@ -127,3 +127,7 @@ A Dockerfile is used to containerize the application using Nginx.
 ## ✅ Conclusion
 This project successfully demonstrates automation of build, test, and deployment using DevOps tools and practices.
 
+
+
+THANK YOU
+
