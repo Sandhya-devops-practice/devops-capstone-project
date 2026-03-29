@@ -63,6 +63,14 @@ The connectivity between master and slave nodes is verified using Ansible ping m
 
 ![Ansible Ping](ansible-ping.png)
 
+## ⚙️ Ansible Playbook for Automation
+
+An Ansible playbook is used to automate the installation of Java and Jenkins on the master node and Docker on the slave nodes.
+
+Playbook file: [play.yaml](play.yaml)
+
+
+
 
 ## ✅ Conclusion
 
