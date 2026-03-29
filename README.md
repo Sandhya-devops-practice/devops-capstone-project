@@ -49,7 +49,7 @@ This process repeats continuously, forming the DevOps lifecycle.
 
 The required software is installed using a shell script.
 
-Script file: `a.sh`
+Script file: [a.sh](a.sh)
 
 
 
