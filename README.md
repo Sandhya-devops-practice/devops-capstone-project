@@ -106,11 +106,14 @@ These nodes are connected via SSH and managed from the Jenkins master, allowing 
 ![Nodes](jenkins-prod.png)
 
 
-
-
-
 ### ⚙️ Pipeline Configuration
 ![Pipeline](jenkins-pipeline.png)
+
+### 🔄 GitHub Webhook Integration
+
+Jenkins is configured to automatically trigger the pipeline when code is pushed to GitHub using webhook integration.
+![Webhook](github-webhook.png)
+
 
 ### ▶️ Pipeline Execution
 ![Build](jenkins-build.png)
