@@ -51,7 +51,11 @@ The required software is installed using a shell script.
 
 Script file: [a.sh](a.sh)
 
+## ⚙️ Configuration Setup
 
+Ansible was installed on the master machine using a shell script and verified using the version command.
+
+![Ansible Version](ansible-version.png)
 
 
 ## ✅ Conclusion
