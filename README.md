@@ -124,6 +124,14 @@ A Dockerfile is used to containerize the application using Nginx.
 
 ![Build](jenkins-console-output.png)
 
+## Project Output
+
+### Docker Container Running
+![Docker](screenshots-docker.png)
+
+### Application Output in Browser
+![Browser Output](screenshots/browser.png)
+
 ## ✅ Conclusion
 This project successfully demonstrates automation of build, test, and deployment using DevOps tools and practices.
 
