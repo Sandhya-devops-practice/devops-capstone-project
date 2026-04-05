@@ -8,7 +8,7 @@
 - Docker container was not accessible in browser  
   → Opened port 80 in AWS Security Group
   
-- I made 7 build fails
+- Initially, faced build failure 
   → My 7 build was failed and my 8th build was successful
 
 
