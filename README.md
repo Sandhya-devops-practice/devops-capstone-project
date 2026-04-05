@@ -9,8 +9,7 @@
   → Opened port 80 in AWS Security Group
   
 - Initially, faced build failure 
-  → My 7 build was failed and my 8th build was successful
-
+  → I faced almost 6 to 7 build failure.
 
 ## 📊 DevOps Lifecycle Diagram
 
