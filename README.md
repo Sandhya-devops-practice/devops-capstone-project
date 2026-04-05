@@ -7,9 +7,10 @@
 
 - Docker container was not accessible in browser  
   → Opened port 80 in AWS Security Group
-  
-- Initially, faced build failure 
-  → I faced almost 6 to 7 build failure.
+
+- Jenkins build failure
+  → I faced almost 6 to 7 build failures, and 8 th build was successfull
+
 
 ## 📊 DevOps Lifecycle Diagram
 
