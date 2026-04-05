@@ -1,8 +1,28 @@
-# This project implements a complete DevOps lifecycle using CI/CD pipeline with Jenkins, Docker, Ansible, and AWS.
+# In this project, I implemented a complete CI/CD pipeline where Jenkins automatically triggers builds based on GitHub branch activity. I configured separate pipelines for development and production workflows to simulate a real-world environment.
+
+## ⚠️ Challenges Faced
+
+- Jenkins pipeline was not triggering via webhook  
+  → Resolved by correcting GitHub webhook URL and enabling trigger option in Jenkins
+
+- Docker container was not accessible in browser  
+  → Opened port 80 in AWS Security Group
+  
+- I made 7 build fails
+  → My 7 build was failed and my 8th build was successful
+
 
 ## 📊 DevOps Lifecycle Diagram
 
 ![DevOps Lifecycle](devops-lifecycle.png)
+
+## 🏗️ Architecture Overview
+
+- Jenkins Master handles pipeline orchestration
+- Slave 1 (Test Node) runs testing stages
+- Slave 2 (Production Node) handles deployment
+- Docker containers are used to run the application
+- AWS EC2 instances host all components
 
 ## Explanation
 
@@ -133,5 +153,6 @@ A Dockerfile is used to containerize the application using Nginx.
 ![Browser Output](screenshots-browser.png)
 
 ## ✅ Conclusion
-This project successfully demonstrates automation of build, test, and deployment using DevOps tools and practices.
+
+Through this project, I gained hands-on experience in setting up a complete CI/CD pipeline using Jenkins, Docker, and Ansible. I also understood how to manage distributed build environments and automate deployments on AWS infrastructure.
 
