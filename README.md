@@ -2,8 +2,7 @@
 
 ## ⚠️ Challenges Faced
 
-- Jenkins pipeline was not triggering via webhook  
-  → Resolved by correcting GitHub webhook URL and enabling trigger option in Jenkins
+- Jenkins pipeline was not triggering via webhook → Resolved by correcting GitHub webhook URL and enabling trigger option in Jenkins
 
 - Docker container was not accessible in browser  
   → Opened port 80 in AWS Security Group
