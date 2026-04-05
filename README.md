@@ -6,9 +6,11 @@
 
 - Docker container was not accessible in browser → Opened port 80 in AWS Security Group
 
-- Jenkins build failure → I faced almost 6 to 7 build failures, and the 8th build was successful after debugging the issues
+- Jenkins build failure → I faced almost 6 to 7 build failures.
 
-- Pipeline script and DocKerfile → Initially I worked on script and also alternatively to learn concepts I worked on building using "Dockerfile" also.
+- The 8th build was successful after debugging the issues
+
+- Pipeline script and DocKerfile → Initially I worked on script and also alternatively to learn concepts, I worked on building using Dockerfile.
 
 ## 📊 DevOps Lifecycle Diagram
 
