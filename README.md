@@ -10,7 +10,7 @@
 
 - The 8th build was successful after debugging the issues
 
-- Pipeline script and DocKerfile → Initially I worked on script and also alternatively to learn concepts, I worked on building using Dockerfile.
+- Pipeline script and Dockerfile → Initially, I worked on pipeline scripts, and to better understand the concepts, I also built the application using a Dockerfile.
 
 ## 📊 DevOps Lifecycle Diagram
 
