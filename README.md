@@ -11,6 +11,8 @@
 - Jenkins build failure
   → I faced almost 6 to 7 build failures, and 8 th build was successfull
 
+- Pipeline script and DocKerfile
+  → Initially I worked on script and also alternatively to learn concepts i worked on building using Dockerfile also.
 
 ## 📊 DevOps Lifecycle Diagram
 
@@ -26,17 +28,16 @@
 
 ## Explanation
 
-This project demonstrates the DevOps lifecycle:
+In this project, I set up a CI/CD workflow where:
 
-* Code is stored and managed using GitHub
-* When code is pushed to **develop branch**, Jenkins triggers build and testing
-* When code is pushed to **master branch**, Jenkins performs build, testing, and deployment
-* Docker is used to containerize the application
-* Ansible is used for configuration management and setup
-* The application is deployed on AWS for production use
-* After deployment, the system is monitored for performance and improvements
+- Code is pushed to GitHub and triggers Jenkins via webhook
+- For the develop branch, Jenkins runs build and testing stages
+- For the master branch, Jenkins executes the full pipeline including deployment
+- Docker is used to containerize the application before deployment
+- Ansible automates the setup and configuration across multiple nodes
+- The application is deployed on AWS EC2 instances and verified through browser access
 
-This process repeats continuously, forming the DevOps lifecycle.
+This setup helped me understand how automated pipelines work in real-world DevOps environments.
 
 ## 🔧 Tools Used
 
