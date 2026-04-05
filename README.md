@@ -9,7 +9,7 @@
   → Opened port 80 in AWS Security Group
 
 - Jenkins build failure
-  → I faced almost 6 to 7 build failures, and 8 th build was successfull
+  → I faced almost 6 to 7 build failures, and 8th build was successful after debugging the issues
 
 - Pipeline script and DocKerfile
   → Initially I worked on script and also alternatively to learn concepts i worked on building using Dockerfile also.
