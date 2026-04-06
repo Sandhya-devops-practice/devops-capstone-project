@@ -12,7 +12,7 @@
 
    First, I had incorrect git repo URL, which caused the clone stage fail
 
-   After fixing that next issue was Docker permission errors on the jenkins agent node
+   After applying these fixes and restarting the instance, the pipeline executed successfully."
 
    The jenkins pipeline was running on a slave node using ubuntu user, which did not have access to the docker daemon, I resolved it by adding the user to the docker          group and restarting the instance so the permission could take effect.
 
