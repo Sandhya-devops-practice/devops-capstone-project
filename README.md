@@ -23,6 +23,15 @@
 
 - Pipeline script and Dockerfile → Initially, I worked on pipeline scripts, and to better understand the concepts, I also built the application using a Dockerfile.
 
+  ## 🚀 Key Features
+
+- Automated CI/CD using Jenkins
+- Multi-node (master-agent) architecture
+- Docker-based deployment
+- Ansible for configuration management
+- GitHub webhook integration
+- Branch-based pipeline execution
+
 ## 📊 DevOps Lifecycle Diagram
 
 ![DevOps Lifecycle](devops-lifecycle.png)
@@ -46,7 +55,7 @@ In this project, I set up a CI/CD workflow where:
 - Ansible automates the setup and configuration across multiple nodes
 - The application is deployed on AWS EC2 instances and verified through browser access
 
-This setup helped me understand how automated pipelines work in real-world DevOps environments.
+In this project it helped me understand how automated pipelines work in real-world DevOps environments.
 
 ## 🔧 Tools Used
 
@@ -55,6 +64,16 @@ This setup helped me understand how automated pipelines work in real-world DevOp
 * Docker
 * Ansible
 * AWS
+
+## 🔐 Ports & Security Group Configuration
+
+The following ports were configured in AWS Security Groups to allow proper communication between components:
+
+- SSH (22) → Used to connect to EC2 instances
+- HTTP (80) → Used to access the application in the browser
+- Jenkins (8080) → Used to access Jenkins dashboard
+
+These configurations ensured secure and controlled access to the infrastructure.
 
 ## 📸 Project Screenshots
 
@@ -136,6 +155,15 @@ These nodes are connected via SSH and managed from the Jenkins master, allowing 
 
 ### ⚙️ Pipeline Configuration
 ![Pipeline](jenkins-pipeline.png)
+
+## 📄 Jenkins Pipeline Script
+
+Jenkinsfile defines the CI/CD stages including:
+- Code checkout
+- Build
+- Test
+- Docker build
+- Deployment
 
 ### 🔄 GitHub Webhook Integration
 
