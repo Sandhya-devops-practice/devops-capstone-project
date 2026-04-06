@@ -6,9 +6,20 @@
 
 - Docker container was not accessible in browser → Opened port 80 in AWS Security Group
 
-- Jenkins build failure → I faced almost 6 to 7 build failures.
+- In my jenkins pipeline setup, I initially faced multiple build failures (around 5 - 7 builds)
 
-- The 8th build was successful after debugging the issues
+- The failures were mainly due to configuration issues rather than code problems
+
+      * First, I had incorrect git repo URL, which caused the clone stage fail
+
+      * After fixing that next issue was Docker permission errors on the jenkins agent node
+
+      * The jenkins pipeline was running on a slave node using ubuntu user, which did not have access to the docker daemon, I resolved it by adding the user to the docker          group and restarting the instance so the permission could take effect.
+
+      * After these fixes, I did reboot and the pipeline created successfully.
+
+- This experience helped me understand jenkins agent behaviour, linux permissions and docker integration in CI/CD pipelines and also these failures helped me in
+  understanding the interaction between jenkins agent with docker and linux permission.
 
 - Pipeline script and Dockerfile → Initially, I worked on pipeline scripts, and to better understand the concepts, I also built the application using a Dockerfile.
 
