@@ -12,15 +12,13 @@ The goal was to simulate a real-world environment by separating development and 
 
 - The failures were mainly due to configuration issues rather than code problems
 
-   First, I had incorrect git repo URL, which caused the clone stage fail
+   First, I had an incorrect Git repository URL, which caused the clone stage to fail.
 
    After applying these fixes and restarting the instance, the pipeline executed successfully.
 
    The jenkins pipeline was running on a slave node using ubuntu user, which did not have access to the docker daemon, I resolved it by adding the user to the docker          group and restarting the instance so the permission could take effect.
 
-   After these fixes, I did reboot and the pipeline created successfully.
-
-- This experience helped me understand jenkins agent behaviour, linux permissions and docker integration in CI/CD pipelines and also these failures helped me in
+- This experience helped me understand Jenkins agent behavior, Linux permissions and docker integration in CI/CD pipelines and also these failures helped me in
   understanding the interaction between jenkins agent with docker and linux permission.
 
 - Pipeline script and Dockerfile → Initially, I worked on pipeline scripts, and to better understand the concepts, I also built the application using a Dockerfile.
@@ -34,9 +32,9 @@ The goal was to simulate a real-world environment by separating development and 
 - GitHub webhook integration
 - Branch-based pipeline execution
 
-## 📊 DevOps Lifecycle Diagram
+## 📊 CI/CD architecture Diagram
 
-![DevOps Lifecycle](devops-lifecycle.png)
+![CI/CD architecture](architecture1.png)
 
 ## 🏗️ Architecture Overview
 
