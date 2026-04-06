@@ -1,4 +1,6 @@
-# In this project, I implemented a complete CI/CD pipeline where Jenkins automatically triggers builds based on GitHub branch activity. I configured separate pipelines for development and production workflows to simulate a real-world environment.
+# In this project, I focused on building a complete CI/CD pipeline from scratch using Jenkins, Docker, and Ansible on AWS.
+
+The goal was to simulate a real-world environment by separating development and production workflows and automating the entire deployment process.
 
 ## ⚠️ Challenges Faced
 
@@ -12,7 +14,7 @@
 
    First, I had incorrect git repo URL, which caused the clone stage fail
 
-   After applying these fixes and restarting the instance, the pipeline executed successfully."
+   After applying these fixes and restarting the instance, the pipeline executed successfully.
 
    The jenkins pipeline was running on a slave node using ubuntu user, which did not have access to the docker daemon, I resolved it by adding the user to the docker          group and restarting the instance so the permission could take effect.
 
@@ -192,5 +194,4 @@ A Dockerfile is used to containerize the application using Nginx.
 
 ## ✅ Conclusion
 
-Through this project, I gained hands-on experience in setting up a complete CI/CD pipeline using Jenkins, Docker, and Ansible. I also understood how to manage distributed build environments and automate deployments on AWS infrastructure.
-
+This project provided practical exposure to building and troubleshooting CI/CD pipelines in a distributed environment. It strengthened my understanding of Jenkins agents, Docker integration, and infrastructure automation using Ansible on AWS.
