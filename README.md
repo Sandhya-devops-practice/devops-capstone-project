@@ -23,7 +23,7 @@ The goal was to simulate a real-world environment by separating development and 
 
 - Pipeline script and Dockerfile → Initially, I worked on pipeline scripts, and to better understand the concepts, I also built the application using a Dockerfile.
 
-  ## 🚀 Key Features
+  ##🚀Key Features
 
 - Automated CI/CD using Jenkins
 - Multi-node (master-agent) architecture
@@ -44,7 +44,7 @@ The goal was to simulate a real-world environment by separating development and 
 - Docker containers are used to run the application
 - AWS EC2 instances host all components
 
-## Explanation
+## 🔍 Workflow Explanation
 
 In this project, I set up a CI/CD workflow where:
 
